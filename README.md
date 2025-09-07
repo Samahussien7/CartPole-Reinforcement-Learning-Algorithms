@@ -32,11 +32,26 @@ This environment corresponds to the version of the CartPole problem described by
 ### 1. Monte Carlo
 Monte Carlo methods are a class of algorithms that rely on repeated random sampling to obtain numerical results. In this project, Monte Carlo is used to estimate the value of each state-action pair by averaging the rewards received following visits to those pairs.
 
+
+[MC-demo](https://github.com/user-attachments/assets/6a93d926-b52f-4a94-807d-92ddbb65e82f)
+
+
+
 ### 2. Q-learning
 Q-learning is an off-policy learner. It seeks to find the best action to take given the current state. It learns the quality of actions, denoted as Q-values, which tells an agent what action to take under what circumstances.
 
+
+[QL-demo](https://github.com/user-attachments/assets/e980203e-8acb-41ed-bf8a-e1144ef07ceb)
+
+
+
 ### 3. SARSA (State-Action-Reward-State-Action)
 SARSA is an on-policy learning algorithm. It updates the Q-values using the action actually taken by the agent, making it more conservative compared to Q-learning.
+
+
+[SARSA-demo](https://github.com/user-attachments/assets/9954090c-2856-4bac-89dd-31f3c7378f81)
+
+
 
 ## Installation
 To run this project, you need to have Python and the following libraries installed:
